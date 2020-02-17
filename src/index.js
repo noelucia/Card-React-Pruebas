@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'; //Importo un modulo  que se llama react 
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './index.css'; //importo un archivo css el ./ significa en la misma carpeta buscame ../ es para volver hacia atras
+import App from './App';  //es un componente de
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));

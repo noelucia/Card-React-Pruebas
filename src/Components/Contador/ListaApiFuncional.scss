@@ -1,0 +1,21 @@
+
+.Recuadro-Funcional{
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 60px;
+    border: 1px solid rgb(218, 209, 209);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+    .items{
+        list-style:none;
+        margin-top:10px;
+        margin-left: 5px;
+
+        .negrita{
+            font-weight: bold;
+        }
+    }
+}
+
